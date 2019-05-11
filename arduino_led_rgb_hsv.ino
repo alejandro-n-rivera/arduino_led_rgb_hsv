@@ -16,7 +16,6 @@
 #define PINK 8
 #define WHITE 9
 
-
 // Red, Green, Blue ranges: R: [0, 255], G: [0, 255], B: [0, 255] (e.g., setLEDRGB(255, 125, 0);)
 // Hue, Saturation, Value (Brightness) ranges: H: [0, 359], S: [0.00, 1.00], V: [0.00, 1.00] (e.g., setLEDHSV(270, 0.50, 1.00);)
 
@@ -28,8 +27,8 @@ void setup()
 
 void loop()
 {
-  HSVBlink();
-  HSVCycle();
+  blinkHSV();
+  cycleHSV();
   testColors();
   goGators();
 
@@ -56,7 +55,7 @@ void setLEDHSV(int h, float s, float v)
   setLEDRGB(r * 255, g * 255, b * 255); // Multiply RGB by 255 to convert to byte values
 }
 
-void HSVBlink()
+void blinkHSV()
 {
   // Jumps to the six main HSV colors
   // Set Hue to: 0, 60, 120, 180, 240, 300
@@ -67,7 +66,7 @@ void HSVBlink()
   }
 }
 
-void HSVCycle()
+void cycleHSV()
 {
   // Cycle through all the Hues [0..359] at full Saturation and Brightness
   for(int i = 0; i < 360; i++)
