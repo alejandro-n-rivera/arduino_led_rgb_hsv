@@ -31,7 +31,6 @@ void loop()
   cycleHSV();
   testColors();
   goGators();
-
 }
 
 void setLEDRGB(byte r, byte g, byte b)
