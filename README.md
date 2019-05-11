@@ -26,3 +26,5 @@ You may have to reference the documentation for the pinout of your own transisto
 My 5V LED strips are only about 1 meter in total length, so I felt safe powering them using a USB 3.1 port on my computer (plus many modern USB ports have current/voltage protection). However, using an external power supply would be your safest option to avoid damage due to too much current draw on your USB port.
 
 ![Wiring diagram](https://github.com/alejandro-n-rivera/arduino_led_rgb_hsv/blob/master/wiring_diagram.png)
+
+Feel free to use (at your own risk), modify, and share.
