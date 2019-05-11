@@ -24,3 +24,5 @@ I used three [ZVN3310A](https://www.diodes.com/assets/Datasheets/ZVN3310A.pdf) N
 You may have to reference the documentation for the pinout of your own transistors as it may differ from mine.
 
 ![Wiring diagram](https://github.com/alejandro-n-rivera/arduino_led_rgb_hsv/blob/master/wiring_diagram.png)
+
+Feel free to use (at your own risk), modify, and share.
