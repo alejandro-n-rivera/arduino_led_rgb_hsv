@@ -1,3 +1,5 @@
+NOTE: I am also working on using this in conjuction with an NRF24L01+ Transceiver to send/receive RGB control signals and data. See here: https://github.com/alejandro-n-rivera/arduino_rpi_transcieve_rgb_temp
+
 # Arduino LED strip control with RGB and HSV
 
 Allows for setting colors using the RGB color space ([0..255], [0..255], [0..255]) \
